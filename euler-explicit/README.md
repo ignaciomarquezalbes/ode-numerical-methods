@@ -4,7 +4,7 @@ This folder contains a MATLAB implementation of the **Explicit Euler Method** fo
 
 📁 **Repository link**: [github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-explicit](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-explicit)
 
-## 🧠 Method Overview
+## Method Overview
 
 The **Forward Euler Method** is a first-order numerical integration technique used to approximate solutions of the form:
 
@@ -16,7 +16,7 @@ Edit
 
 It works by taking small steps along the curve using the slope provided by the differential equation.
 
-## 📂 Folder Structure
+## Folder Structure
 
 - `main.m` — Entry point. Sets up the initial values and calls the solver.
 - `euler_explicit.m` — Implements the Forward Euler algorithm.
@@ -28,7 +28,7 @@ It works by taking small steps along the curve using the slope provided by the d
 
 > Utility scripts `escribe_cabecera.m` and `escribe_paso.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
 
-## ✅ What This Demonstrates
+## What This Demonstrates
 
 - Modular design of a numerical method in MATLAB.
 - Customizability: Swap in
