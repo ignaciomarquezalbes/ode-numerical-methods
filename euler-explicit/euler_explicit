@@ -1,0 +1,43 @@
+function euler_explicit(f,a,eta,h,npas,sol,isol)
+
+fid=1;
+
+xk=a;
+yk=eta;
+
+if isol==1
+    err=feval(sol,xk)-yk;
+    escribe_cabecera(fid,xk,yk,err)
+    
+    k=0;
+    
+    escribe_paso(fid,k,xk,yk,err);
+    
+    for k=1:npas
+    
+        yk=yk+h*feval(f,xk,yk);  %computing y^n+1
+        xk=xk+h;                 %computing x^n+1
+        
+        err=feval(sol,xk)-yk;    %computing y(x^n+1)-y^n+1
+        
+        escribe_paso(fid,k,xk,yk,err);
+    end
+    return
+    
+else
+    escribe_cabecera(fid,x,y)
+    k=0;
+    
+    escribe_paso(fid,k,x,y);
+    
+    for k=1:npas
+    
+        yk=yk+h*feval(f,xk,yk);  %computing y^n+1
+        xk=xk+h;                 %computing x^n+1
+        
+        escribe_paso(fid,k,xk,yk);
+    end
+    
+return    
+
+end
