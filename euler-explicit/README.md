@@ -12,8 +12,8 @@ y'(x) = f(x, y),
 
 y(x₀) = y₀.
 
-It works by taking small steps along the curve using the slope provided by the differential equation. Explicitly, the algorithm 
-computes successive values using:
+It approximates the solution by taking small steps along the curve, using the slope defined by the differential equation. 
+Explicitly, the algorithm computes successive values using:
 
 xₙ₊₁ = xₙ + h,
 
