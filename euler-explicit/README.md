@@ -29,7 +29,7 @@ where:
 - `main.m` — Entry point. Sets up the initial values and calls the solver.
 - `euler_explicit.m` — Implements the Forward Euler algorithm.
 - `function.m` — Defines the function *f(x, y)* for the ODE system.
-- `solution.m` — Defines the exact solution *y(x)* for error estimation (it needs to agree with the function in `function.m`).
+- `solution.m` — Defines the exact solution *y(x)* for optional error estimation (it must agree with the function in `function.m`).
 - `data.m` — Contains all problem parameters (step size, initial conditions, etc.).
 - `escribe_cabecera.m` — Prints a header for formatted output.
 - `escribe_paso.m` — Prints values at each step of the iteration.
