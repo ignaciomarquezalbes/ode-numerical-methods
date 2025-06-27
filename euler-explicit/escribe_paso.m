@@ -1,4 +1,4 @@
-function escribe_paso(fid,k,x,y,err)
+function write_step(fid,k,x,y,err)
 
 % Utility function originally supplied in university coursework            
 % (minor edits for clarity and English translation)                        
