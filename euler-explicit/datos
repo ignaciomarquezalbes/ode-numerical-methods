@@ -7,7 +7,7 @@ f='function';
 sol='solucion';
 isol=1;
 
-a= 1.000e-03;   %x inicial
-eta=1.035e-03;  %y inicial
+a= 1.000e-03;   %x initial condition
+eta=1.035e-03;  %y initial condition
 
 end
