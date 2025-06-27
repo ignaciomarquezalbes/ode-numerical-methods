@@ -1,5 +1,5 @@
 clear all
 
-[f,a,eta,h,npas,sol,isol]=datos;
+[f,a,eta,h,npas,sol,isol]=data;
 
-euler_explicito(f,a,eta,h,npas,sol,isol);
+euler_explicit(f,a,eta,h,npas,sol,isol);
