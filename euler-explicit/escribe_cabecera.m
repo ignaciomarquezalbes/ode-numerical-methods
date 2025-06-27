@@ -1,30 +1,28 @@
 function escribe_cabecera(fid,x,y,err)
 %
-% Funcion escribe_cabecera(x, y, err)
-%
-% Funcion que imprime un encabezado de cara a imprimir 
-% la evolucion de la variable independiente, 
-% de las variables dependientes y del error cometido (opcional) 
-% a lo largo de las iteraciones en la resolucion numerica de un
-% problema de valor inicial
-%   |   y'(x) = f(x,y(x))
-%   | y(x=x0) = y_0.
-% Se trata de una rutina que se debe llamar antes de escribe_paso.m
-%
-% Entrada:
-% fid: identificador de fichero. Para salida por pantalla usar 1.
-%   x: variable independiente en la EDO (no se usa en esta funcion).
-%   y: vector que contiene las variables dependientes (su utilidad se 
-%      limita a conocer el numero de componentes de las que dispone el 
-%      el vector y).
-% err: vector que contiene el error entre la solucion exacta y la 
-%      aproximada (no se usa en esta funcion).
-%
-% Salida: 
-%   Esta rutina tan solo proporciona un encabezado cuyo formato dependera
-%   del numero de componentes en y. La salida es o bien por fichero o por 
-%   pantalla.
-%   
+% Utility function originally supplied in university coursework            
+% (minor edits for clarity and English translation)                        
+%                                                                         
+% Purpose:                                                                 
+% Prints the header for the table that displays the evolution of the      
+% independent variable, the dependent variables, and—optionally—the       
+% error at each iteration during the numerical solution of an initial-    
+% value problem                                                           
+%                                                                         
+%   |   y'(x) = f(x, y(x))                                                
+%   | y(x = x0) = y0                                                      
+%                                                                         
+% This routine is meant to be called before `escribe_paso.m`.             
+%                                                                         
+% Input:                                                                   
+%   fid  : File identifier. Use 1 for console output.                     
+%   x    : Independent variable in the ODE (not used here).               
+%   y    : Vector of dependent variables. Only used to determine the number of components.                                         
+%   err  : Error vector between exact and numerical solution (not used here).                                              
+%                                                                         
+% Output:                                                                  
+%   Prints a formatted header (to file or screen), adapting its layout    
+%   based on the number of components in the dependent-variable vector y. 
 
 n = length(y);
 
