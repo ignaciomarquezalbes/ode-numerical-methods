@@ -25,8 +25,3 @@ It works by taking small steps along the curve using the slope provided by the d
 - `escribe_paso.m` — Prints values at each step of the iteration.
 
 > Utility scripts `escribe_cabecera.m` and `escribe_paso.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
-
-## What This Demonstrates
-
-- Modular design of a numerical method in MATLAB.
-- Customizability: Swap in
