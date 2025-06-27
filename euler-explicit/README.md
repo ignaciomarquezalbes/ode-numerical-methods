@@ -19,10 +19,7 @@ xₙ₊₁ = xₙ + h,
 
 yₙ₊₁ = yₙ + h * f(xₙ, yₙ),
 
-where:
-- h is the step size,
-- f is the function defining the ODE,
-- and (xₙ, yₙ) is the current point. 
+where h is the step size, f is the function defining the ODE, and (xₙ, yₙ) is the current point. 
 
 ## Folder Structure
 
