@@ -1,4 +1,4 @@
-# Euler Explicit Method – Numerical Solution of ODEs
+# Explicit Euler Method – Numerical Solution of ODEs
 
 This folder contains a MATLAB implementation of the Explicit Euler Method for numerically solving initial-value problems of ordinary differential equations (ODEs).
 
