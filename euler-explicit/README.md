@@ -9,6 +9,7 @@ This folder contains a MATLAB implementation of the **Explicit Euler Method** fo
 The **Forward Euler Method** is a first-order numerical integration technique used to approximate solutions of the form:
 
 y'(x) = f(x, y)
+
 y(x₀) = y₀
 
 It works by taking small steps along the curve using the slope provided by the differential equation.
