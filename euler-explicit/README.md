@@ -1,6 +1,6 @@
 # Euler Explicit Method – Numerical Solution of ODEs
 
-This folder contains a MATLAB implementation of the **Explicit Euler Method** for numerically solving initial-value problems (IVPs) of ordinary differential equations (ODEs).
+This folder contains a MATLAB implementation of the **Explicit Euler Method** for numerically solving initial-value problems of ordinary differential equations (ODEs).
 
 📁 **Repository link**: [github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-explicit](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-explicit)
 
@@ -8,11 +8,8 @@ This folder contains a MATLAB implementation of the **Explicit Euler Method** fo
 
 The **Forward Euler Method** is a first-order numerical integration technique used to approximate solutions of the form:
 
-dy/dx = f(x, y), y(x₀) = y₀
-
-markdown
-Copy
-Edit
+y'(x) = f(x, y)
+y(x₀) = y₀
 
 It works by taking small steps along the curve using the slope provided by the differential equation.
 
