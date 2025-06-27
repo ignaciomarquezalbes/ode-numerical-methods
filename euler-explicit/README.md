@@ -28,7 +28,7 @@ where h is the step size, f is the function defining the ODE, and (xₙ, yₙ) i
 - `function.m` — Defines the function *f(x, y)* for the ODE system.
 - `solution.m` — Defines the exact solution *y(x)* for optional error estimation (it must agree with the function in `function.m`).
 - `data.m` — Contains all problem parameters (step size, initial conditions, etc.).
-- `escribe_cabecera.m` — Prints a header for formatted output.
-- `escribe_paso.m` — Prints values at each step of the iteration.
+- `write_head.m` — Prints a header for formatted output.
+- `write_step.m` — Prints values at each step of the iteration.
 
 > Utility scripts `escribe_cabecera.m` and `escribe_paso.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
