@@ -1,4 +1,4 @@
-function escribe_cabecera(fid,x,y,err)
+function write_head(fid,x,y,err)
 %
 % Utility function originally supplied in university coursework            
 % (minor edits for clarity and English translation)                        
