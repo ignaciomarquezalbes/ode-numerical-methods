@@ -1,28 +1,28 @@
 function escribe_paso(fid,k,x,y,err)
-%
-% Funcion escribe_paso(k, x, y, err)
-%
-% Funcion que imprime la evolucion de la variable independiente, 
-% de las variables dependientes y del error cometido (opcional) 
-% a lo largo de las iteraciones en la resolucion numerica de un
-% problema de valor inicial
-%   |   y'(x) = f(x,y(x))
-%   | y(x=x0) = y_0.
-%
-% Entrada:
-% fid: identificador de fichero. Para salida por pantalla usar 1.
-%   k: entero que indica el paso en el que estamos.
-%   x: variable independiente en la EDO.
-%   y: vector que contiene las variables dependientes.
-% err: vector que contiene el error entre la solucion exacta y la 
-%      aproximada.
-%
-% Salida: 
-%   Esta rutina imprimimos por pantalla o por fichero el paso, la 
-%   variable independiente, las variables dependientes y, en caso 
-%   de que queramos, el error. Se usan formatos diferentes 
-%   dependiendo de la longitud de y.
-%   
+
+% Utility function originally supplied in university coursework            
+% (minor edits for clarity and English translation)                        
+%                                                                                                                                          
+% This function prints the evolution of the independent variable, the dependent         
+% variables, and—optionally—the approximation error at each iteration     
+% of the numerical solution of an initial-value problem                   
+%                                                                         
+%   |   y'(x) = f(x, y(x))                                                
+%   | y(x = x0) = y0                                                      
+%                                                                         
+% Input:
+%   fid  : File identifier.  Use 1 for console output.                    
+%   k    : Current step/iteration index (integer).                        
+%   x    : Current value of the independent variable.                     
+%   y    : Vector of dependent-variable values at step k.                 
+%   err  : (Optional) Vector of errors between exact and numerical solutions at step k.                                          
+%                                                                         
+% Output:
+%   Writes—either to screen or to the file referenced by fid—the step     
+%   number, the independent variable, the dependent variables, and, if    
+%   requested, the error.  Uses a compact or extended print format        
+%   depending on the length of y.                                         
+
 
 n = length(y);
 
