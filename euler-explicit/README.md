@@ -6,7 +6,7 @@ This folder contains a MATLAB implementation of the Explicit Euler Method for nu
 
 ## Method Overview
 
-The Explicit Euler Method is a first-order numerical integration technique used to approximate solutions of the form:
+The Explicit Euler Method is a first-order numerical integration technique used to approximate solutions of equations of the form:
 
 y'(x) = f(x, y),
 
