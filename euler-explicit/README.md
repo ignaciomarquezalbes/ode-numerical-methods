@@ -1,6 +1,6 @@
 # Euler Explicit Method – Numerical Solution of ODEs
 
-This folder contains a MATLAB implementation of the **Forward Euler Method** (also known as the **Explicit Euler Method**) for numerically solving initial-value problems (IVPs) of ordinary differential equations (ODEs).
+This folder contains a MATLAB implementation of the **Explicit Euler Method** for numerically solving initial-value problems (IVPs) of ordinary differential equations (ODEs).
 
 📁 **Repository link**: [github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-explicit](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-explicit)
 
