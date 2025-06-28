@@ -23,11 +23,11 @@ yₙ₊₁ = yₙ + h * f(xₙ₊₁, yₙ₊₁),
 where h is the step size  and f is the function defining the ODE. 
 Observe that, in contrast with the Explicit Euler Method, this is an implicit method, 
 that is, the expression to compute the new approximation, yₙ₊₁, depends on yₙ₊₁ itself and,
-thus, the method needs to solve an algebraic equation to find yₙ₊₁. 
+thus, the method needs to solve an algebraic equation to find yₙ₊₁ (handled here using MATLAB's `fsolve`). 
 
 ## Folder Structure
 
-- `main.m` — Entry point. Calls the data for the problem and the solver.
+- `main.m` — Entry point. Loads problem data and calls the solver.
 - `euler_explicit.m` — Implements the Implicit Euler algorithm.
 - `function.m` — Defines the function *f(x, y)* for the ODE.
 - `solution.m` — Defines the exact solution *y(x)* for optional error estimation (it must agree with the function in `function.m`).
