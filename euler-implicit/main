@@ -1,0 +1,5 @@
+clear all
+
+[f,a,eta,h,npas,sol,isol]=datosimp4;
+
+euler_implicit(f,a,eta,h,npas,sol,isol);
