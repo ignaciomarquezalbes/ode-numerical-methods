@@ -23,7 +23,7 @@ where h is the step size, f is the function defining the ODE, and (xₙ, yₙ) i
 
 ## Folder Structure
 
-- `main.m` — Entry point. Calls the data for the problem and the solver.
+- `main.m` — Entry point. Loads problem data and calls the solver.
 - `euler_explicit.m` — Implements the Explicit Euler algorithm.
 - `function.m` — Defines the function *f(x, y)* for the ODE system.
 - `solution.m` — Defines the exact solution *y(x)* for optional error estimation (it must agree with the function in `function.m`).
