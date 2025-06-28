@@ -2,7 +2,7 @@
 
 This folder contains a MATLAB implementation of the Implicit Euler Method for numerically solving initial-value problems of ordinary differential equations (ODEs).
 
-📁 **Repository link**: [github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-implicit](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-implicit)
+**Repository link**: [github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-implicit](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-implicit)
 
 ## Method Overview
 
