@@ -12,15 +12,15 @@ y'(x) = f(x, y),
 
 y(x₀) = y₀.
 
-It approximates the solution by taking small steps along the curve, using the slope defined by the differential equation. 
-Explicitly, the algorithm computes successive values using:
+It approximates the solution in a similar fashion to the Explicit Euler Method. 
+In this case, the algorithm computes successive values using:
 
 xₙ₊₁ = xₙ + h,
 
 yₙ₊₁ = yₙ + h * f(xₙ₊₁, yₙ₊₁),
 
-where h is the step size, f is the function defining the ODE. 
-Observe that, in contrast with the xplicit Euler Method, this is an implicit method, 
+where h is the step size  and f is the function defining the ODE. 
+Observe that, in contrast with the Explicit Euler Method, this is an implicit method, 
 that is, the expression to compute the new approximation, yₙ₊₁, depends on yₙ₊₁ itself and,
 thus, the method needs to solve an algebraic equation for the unknown. 
 
