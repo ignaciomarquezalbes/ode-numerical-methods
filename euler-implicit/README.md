@@ -26,7 +26,7 @@ thus, the method needs to solve an algebraic equation for the unknown.
 
 ## Folder Structure
 
-- `main.m` — Entry point. Sets up the initial values and calls the solver.
+- `main.m` — Entry point. Calls the data for the problem and the solver.
 - `euler_explicit.m` — Implements the Implicit Euler algorithm.
 - `function.m` — Defines the function *f(x, y)* for the ODE.
 - `solution.m` — Defines the exact solution *y(x)* for optional error estimation (it must agree with the function in `function.m`).
